@@ -1,0 +1,124 @@
+.ajusteNav {
+    max-width: 100%;
+}
+
+.pegados{
+    margin:0 0;
+    padding:0 0;
+}
+
+.navbar {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.colorGris {
+    width: auto;
+    background: #363A3A;
+}
+
+.logoNav {
+    height: auto;
+    width: auto;
+    max-height: 4em;
+    max-width: 15em;
+}
+
+.fuenteP {
+    font-size: 1.3em;
+}
+
+li {
+    white-space: nowrap;
+}
+
+.portada {
+    max-width: 100%;
+}
+
+.filtroPortada {
+    filter:brightness(50%)
+}
+
+body::-webkit-scrollbar {
+    overflow-x: hidden;
+    display: none;
+}
+
+.cajaTexto {
+    position: relative;
+}
+
+.textoPortada {
+    position: absolute;
+    top: 18em;
+    left: 60em;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: right;
+    width: 35em;
+    height: auto;
+}
+
+.btnVerdeFeo {
+    background-color: rgb(102, 165, 7) !important;
+}
+
+.ztiloMinimo1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.ztiloMinimo2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 450;
+}
+
+.pills1 {
+    background-color: rgb(219, 190, 25) !important;
+    color: black;
+}
+
+.pills2 {
+    background-color: rgb(52, 170, 186) !important;
+}
+
+.textoPortada2 {
+    font-size: smaller;
+    background-color: #2e2e2e;
+    color:whitesmoke;
+    font-family: sans-serif;
+}
+
+.btnNeg {
+    border-color: whitesmoke !important;
+    color: whitesmoke !important;
+}
+
+.formStylo {
+    max-width: 50%;
+    
+}
+
+.btnVerdeFeo2 {
+    background-color: rgb(168, 212, 101) !important;
+    border-color: none !important;
+    
+}
+
+.colorAzul {
+    width: auto;
+    background: #1f3c49;
+    
+}
+
+footer a {
+    background-image: none !important;
+    background-repeat: no-repeat !important;
+    text-decoration: none !important;
+}
