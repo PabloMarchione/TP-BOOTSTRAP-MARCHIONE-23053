@@ -1,5 +1,5 @@
 .ajusteNav {
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .pegados{
@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
 .textoPortada {
     position: absolute;
     top: 18em;
-    left: 60em;
+    left: 71em;
     transform: translate(-50%, -50%);
     background-color: none;
     color: #fff;
@@ -121,4 +121,34 @@ footer a {
     background-image: none !important;
     background-repeat: no-repeat !important;
     text-decoration: none !important;
+}
+
+.tarjetaA {
+    border-style: solid;
+    font-family: sans-serif;
+    padding: 1em;
+    min-height: 15em;
+    border-color: rgb(0, 0, 255);
+    border-radius: 0em;
+}
+.tarjetaV {
+    border-style: solid;
+    font-family: sans-serif;
+    padding: 1em;
+    min-height: 15em;
+    border-color: rgb(0, 255, 34);
+    border-radius: 0em;
+}
+.tarjetaN {
+    border-style: solid;
+    font-family: sans-serif;
+    padding: 1em;
+    min-height: 15em;
+    border-color: rgb(255, 217, 0);
+    border-radius: 0em;
+}
+
+.boldF {
+    font-weight: bold;
+    font-size: 2em;
 }
