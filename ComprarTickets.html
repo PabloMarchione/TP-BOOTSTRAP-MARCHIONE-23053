@@ -87,20 +87,31 @@
                     <input type="text" class="form-control" placeholder="Correo">
                 </div>
                 <div class="col p-2">Cantidad
-                    <input type="text" class="form-control" placeholder="Cantidad">
+                    <input type="text" class="form-control" placeholder="Cantidad" id="cant">
                 </div>
                 <div class="col p-2">Categoria
-                    <input type="text" class="form-control" placeholder="Categoria">
+                    <label for="categoria"></label>
+                        <div class="row estilo-categorias">
+                            <select name="categorias" id="categorias"> 
+                                <option value="estudiante">Estudiante</option>
+                                <option value="trainee">Trainee</option> 
+                                <option value="junior">Junior</option> 
+                            </select>
+                        </div>
                 </div>
-                <div class="row">
-                    <div class="col px-4">
+                <div class="d-flex p-2">
+                    <input type="text" class="form-control estilo-aPagar" placeholder="Total a Pagar: $" id="aPagar">
+                </div>
+                <div class="d-flex pt-2">
+                    <div class="col ms-2 me-5">
                         <span class="row">
-                            <button type="submit" class="btnVerdeFeo2 btn btn-success">Enviar</button>
+                            <button type="submit" class="btnVerdeFeo2 btn btn-success">Borrar</button>
                         </span>
                     </div>
-                    <div class="col pr-1">
+                    <div class="col me-2">
                         <span class="row">
-                            <button type="submit" class="btnVerdeFeo2 btn btn-success">Enviar</button>
+                            <button type="button" class="btnVerdeFeo2 btn btn-success" id="resumen">Resumen</button>
+                            <script src="./calculo.js"></script>
                         </span>
                     </div>
                 </div>

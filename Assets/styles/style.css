@@ -152,3 +152,22 @@ footer a {
     font-weight: bold;
     font-size: 2em;
 }
+
+
+.estilo-categorias {
+    
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+}
+
+.estilo-categorias select {
+    font-size: x-large;
+}
+
+.estilo-aPagar {
+    background-color: rgb(161, 214, 255) !important;
+    font-weight: bold;
+}
